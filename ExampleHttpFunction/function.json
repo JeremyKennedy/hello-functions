@@ -19,8 +19,8 @@
       "type": "blob",
       "direction": "out",
       "name": "outputBlob",
-      "path": "outcontainer/{rand-guid}",
-      "connection": "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING"
+      "path": "outcontainer/{rand-guid}.log",
+      "connection": "AzureWebJobsStorage"
     }
   ],
   "scriptFile": "../dist/ExampleHttpFunction/index.js"
